@@ -1,7 +1,0 @@
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-
-dashboard/.
-    RewriteCond %{THE_REQUEST} /donaldtrump\.php [NC]
-    RewriteRule ^(.*)donaldtrump\.php$ /dashboard/ [R=301,L]
-</IfModule>
